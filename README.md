@@ -1,34 +1,50 @@
-Netflix Data Cleaning Project
+🎬 Netflix Data Cleaning Project
+📌 Project Overview
 
-Objective
-Clean and preprocess the Netflix Titles dataset to improve data quality and prepare it for analysis.
+This project focuses on cleaning and preprocessing the Netflix Titles dataset using Python and Pandas. The objective was to improve data quality by identifying inconsistencies, handling missing information, standardizing formats, and preparing the dataset for further analysis and visualization.
 
-Dataset
-Netflix Titles Dataset (netflix_titles.csv)
+🔧 Data Cleaning Tasks Performed
 
-Data Cleaning Steps Performed
-Checked for missing values using isnull().sum()
-Removed duplicate records using drop_duplicates()
-Standardized column names by converting them to lowercase and replacing spaces with underscores
-Converted the date_added column to datetime format
-Exported the cleaned dataset to a new CSV file
+1. Missing Value Analysis
+Identified missing values across all columns using Pandas.
+Reviewed incomplete records to understand data quality issues.
 
-Files Included
+2. Duplicate Record Removal
+Detected and removed duplicate rows to improve dataset accuracy.
 
-task1.py – Python script used for data cleaning
-netflix_titles.csv – Original dataset
-netflix_titles_cleaned.csv – Cleaned dataset
+3. Column Name Standardization
+Converted all column names to lowercase.
+Replaced spaces with underscores for consistency and easier coding.
 
-Tools Used
+4. Date Format Conversion
+Converted the date_added column into a proper datetime format.
+Ensured consistency for future time-based analysis.
+
+5. Dataset Validation
+Checked data types of all columns.
+Verified dataset structure after cleaning.
+
+6. Export Clean Dataset
+Saved the processed dataset as netflix_titles_cleaned.csv.
+
+🛠 Technologies Used
 Python
 Pandas
 GitHub Codespaces
+GitHub
 
-Outcome
+📂 Project Files
+task1.py → Data cleaning script
+netflix_titles.csv → Original dataset
+netflix_titles_cleaned.csv → Cleaned dataset
+README.md → Project documentation
 
-The dataset was cleaned by handling data quality issues, standardizing column names, removing duplicate entries, and formatting date fields for further analysis.
+✅ Outcome
 
-Deliverables
-✅ Cleaned Dataset: netflix_titles_cleaned.csv
-✅ Python Script: task1.py
-✅ Summary Report: README.md
+Successfully cleaned and standardized the Netflix dataset by removing duplicates, formatting dates, and improving column consistency. The resulting dataset is analysis-ready and can be used for exploratory data analysis (EDA), visualization, and business insights.
+
+📦 Deliverables
+
+✔ Cleaned Dataset (netflix_titles_cleaned.csv)
+ ✔ Python Cleaning Script (task1.py)
+ ✔ Project Documentation (README.md)
